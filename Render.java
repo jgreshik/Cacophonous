@@ -8,7 +8,7 @@ import java.util.*;
 
 public class Render {
     public static void main(String[]args)throws Throwable{
-        int w=1024;
+        int w=4*1024;
         int h=w;
         Image image = new Image(w,h);
         for(int i=0;i<w;++i){
